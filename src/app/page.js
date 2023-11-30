@@ -38,7 +38,6 @@ export default function Home() {
           {projects.map((project) => (
           <Project key={project.id || projects.indexOf(project)} project={project} />
         ))}
-          }
       </div>
     </main>
   )
